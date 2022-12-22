@@ -1,0 +1,348 @@
+body
+{
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .lista-menu{
+  display: flex;
+
+}
+
+header ul li{
+  list-style: none;
+  margin-right: 15px;
+}
+
+ a {
+  text-decoration: none;
+}
+.contenedor{
+   max-width: 1280px;
+   width: 90%;
+   margin: auto;
+}
+
+header{
+  background: linear-gradient(rgba(43, 185, 1 ,.7), rgba(0, 147, 147, .7)), url(C:/htdocs/imagenes/intro.jpg);
+  height: 100vh;
+  background-size: cover;
+background-color:
+}
+#contenedor-titulo-flex{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 18vh 0;
+width: 100%;
+  max-width: 1580px;
+
+
+
+}
+h1{
+  font-size:  60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  margin: 0;
+}
+h2{
+  font-size: 25px;
+  color: #fff;
+
+}
+.contenedor-titulo{
+  text-align: center;
+}
+.contenedor-titulo a, #sobre-mi a, #Blog a, #que-esperas a, input[type="submit"]{
+  font-size: 14px;
+  color: #fff;
+  background: #00dcdc;
+  padding: 14px 24px;
+  width: 140px;
+  display: inline-block;
+
+}
+
+p.logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a{
+  color: #fff;
+}
+
+/* seccion sobre mi */
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+#sobre-mi .contenedor-sobremi{
+  display: flex;
+justify-content: space-around;
+text-align: justify;
+
+}
+
+#sobre-mi .texto{
+  width: 42%;
+}
+/* Seccion servicios */
+.contenedor-servicios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+.servicio{
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.ondas{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 100;
+}
+.servicio h4 {
+  font-size: 30px;
+  margin:0;
+}
+.servicio p {
+  margin-bottom: 20px;
+  height: 194px;
+
+}
+.contenedor-servicios .verde{
+  background: #00dcdc;
+  text-align: justify;
+  box-shadow: 0 12px 30px 0 rgba(5, 116, 116, .37);
+}
+.incono{
+  float: right;
+}
+.contenedor-servicios .azul{
+  background:  #4abd26;
+  text-align: justify;
+  box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+/* Mis trabajos */
+
+button.owl-prev, button.owl-next{
+  font-size: 40px !important;
+}
+span{
+  color: #4abd26;
+}
+
+
+/* Seccion  por que trabajar*/
+.contenedor-trabajar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+ ul li{
+    list-style: none
+}
+
+#por-que-trabajar .item{
+width: 28%;
+text-align: center;
+
+
+}
+/* elementos hijos first last nth-child*/
+#por-que-trabajar ul li:nth-child(2){
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3){
+line-height: 31px;
+text-align: justify;
+}
+
+/* seccion blog */
+
+#Blog{
+  background: #f9fafc;
+}
+
+#Blog .contenedor-publicaciones{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#Blog .publicacion{
+box-shadow: 1PX 1PX 14PX #CCC;
+width: 30%;
+
+}
+#Blog .publicacion img{
+  width: 100%;
+}
+#Blog .contenido{
+  background: #FFFFFF;
+  padding: 20px;
+
+}
+#Blog h4 {
+  font-size: 23px;
+  margin-top: 15px;
+  margin: 0;
+}
+#Blog p{
+  color:  #5a6169;
+  line-height: 24px;
+  font-size: 16px;
+}
+#Blog a {
+  width: 85px;
+float: right;
+margin-bottom: 10px;
+}
+/* seccion que esperas */
+
+#que-esperas{
+  background: linear-gradient(rgba(43, 185, 1 ,.94), rgba(2, 252, 252.9));
+  text-align: center;
+  padding: 50px 50px;
+  margin-top: 40px;
+}
+#que-esperas h3{
+  font-size: 23px;
+  color: #FFFFFF;
+}
+/* seccion Contacto  */
+
+#Contacto form{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 77%;
+margin: auto;
+
+}
+
+input[type="text"],  input[type="email"]{
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #4abd26;
+  font-size: 17px;
+}
+
+textarea{
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #4abd26;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 100%;
+
+}
+#Contacto input[type="submit"]{
+margin: auto;
+width: 166px;
+}
+
+.contacto-infos{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.contacto-infos img{
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer{
+background: #2f2f2f;
+padding: 40px 0;
+text-align: center;
+margin-top: 40px;
+
+}footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color:  #ffffff;
+}
+
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition: 0.4s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+footer p
+{
+  margin-top: 40px;
+}
+#whatsapp{
+  position: fixed;
+  top: 80%;
+  right: 1%;
+}
+
+html{
+scroll-behavior: smooth;
+
+}
+
+#mis-trabajos, #sobre-mi, #Servicios, #por-que-trabajar, #Blog, #Contacto{
+  padding: 90px 0;
+}
+
+.menu-incono{
+  display: none;
+}
+
+@media (max-width:800px) {
+
+
+  .menu-icono{
+    display: block;
+    float: right;
+  }
+  header nav{
+    position: absolute;
+    top: 83px;
+    left: 0px;
+    height: 268px;
+    background: #5cb8ff
+  }
+  header nav ul{
+    flex-direction: column;
+  }
+  header nav:hover{
+    color:#00dcdc;
+  }
+}
